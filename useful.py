@@ -26,7 +26,7 @@ class DictPlus():
             if (ke == key) or (ke in key):
                 return self.dictionary[key]
 
-
+    # Display class help message
     def help(self):
         help_msg = '''
 Use the DictPlus class to give your dictionary the ability to return a dictionary value from than one dictionary key.
