@@ -1,6 +1,7 @@
 import sys
 
-# Persistently prompt the user until user input is in "lst"
+
+# Persistently prompt the user until user input is in the sequence "lst"
 def p_prompt(prompt, lst):
     while True:
         ans = input(prompt)
@@ -10,7 +11,8 @@ def p_prompt(prompt, lst):
             continue
         return ans
 
-    
+
+# Class for multi-key dictionary. Use the .get(key) method to find the value. Multiple keys can return the same value.
 class DictPlus():
     def __init__(self, dictionary):
         if type(dictionary) == dict:
